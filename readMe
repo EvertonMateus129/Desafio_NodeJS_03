@@ -1,0 +1,15 @@
+Esse desafio foi bastante complicado para mim a partir da 3 requisição, tentei de todas as formas que imaginei sozinho, até que pedi ajuda para o ChatGPT, onde percebi
+que era bastante diferente do que eu estava imaginando.
+
+Desafio 1: No primeiro desafio, foi o mais do básico para mim, como já veio praticamente pronto com o r1.question. No JavaScript para fazer esse desafio, 
+eu iria utilizar um prompt para o usuário escrever algo e armazenar aquela resposta em alguma variável.
+
+Desafio 2: Ler e armazenar informações seria desta forma:   r1.question("Qual o nome do aluno?")\n", (nome: string)*, pois estamos armazenando o nome do aluno à uma variável declarada.
+
+Desafio 3: O mais complexo para mim, pois não sabia como fazer, além de todas as formas que eu tentie resolver não dava certo. Com a ajuda da inteligencia artificial,
+percebi o meu erro, e o meu erro era estar usando o while/for dentro do readline.question, como ele é assíncrono, ele sempre vai disparar todas as perguntas de uma vez,
+sem que o usuário responda a pergunta anterior. Para resolver isso, colocamos tudo dentro de uma function e nessa function colocamos nossas condicionais para parar à aplicação
+assim que nossas requisições forem "batidas"
+
+Desafio 4: Também fiz com a ajuda da IA, pois não tinha ideia de como poderia implementar as notas junto dos alunos, e também aprendi um pouco sobre a utilidade do reduce, que nunca tinha utilizado.
+E junto do ternário fiz a R04. 
